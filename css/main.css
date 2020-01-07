@@ -1,4 +1,5 @@
 body {
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 	width: 80%;
 	max-width: 1024px;
 	margin: 0 auto;
@@ -24,17 +25,28 @@ body {
 	color: white;
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
-
-	border: 1px solid white;
+	border: 2px solid white;
 	border-radius: 5px;
 }
 
 .container-image {
-	width: 20%;
+	float: left;
+	border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display:flex;
+    flex-direction:row;
+    background: white;
+    align-items:center;
+	min-width: 10%;
+}
+	/*width: 20%;
 	display: block;
 	float: left;
 	margin-right:5%;
-}
+	padding: 10px;
+	border: none;
+	border-radius: 10%;*/
 #h1{
 	text-align:center;
 	font-family: 'Roboto', sans-serif;
